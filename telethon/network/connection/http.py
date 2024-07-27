@@ -3,7 +3,7 @@ import asyncio
 from .connection import Connection, PacketCodec
 
 
-SSL_PORT = 443
+SSL_PORT = 5222
 
 
 class HttpPacketCodec(PacketCodec):
